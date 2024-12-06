@@ -8601,3 +8601,18 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+			.instagram-container {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 75vh; /* Ajuste conforme necessário */
+				width: 100%;
+			  }
+			  
+			  .instagram-media {
+				max-width: 540px; /* Largura máxima do embed */
+				width: 100%; /* Responsivo */
+				margin: 0 auto; /* Centralizar horizontalmente */
+			  }
+					  
+		  
