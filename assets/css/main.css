@@ -8605,7 +8605,7 @@ input, select, textarea {
 				display: flex;
 				justify-content: center;
 				align-items: center;
-				height: 75vh; /* Ajuste conforme necessário */
+				height: 125vh; /* Ajuste conforme necessário */
 				width: 100%;
 			  }
 			  
