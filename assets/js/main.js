@@ -27,6 +27,23 @@
 			}, 100);
 		});
 
+	// Função para fechar o banner Flash Sale
+	window.closeBanner = function() {
+		const banner = document.getElementById('flash-sale');
+		if (banner) {
+			banner.style.display = 'none'; // Esconde o banner
+		}
+	};
+
+	// Adicionando o evento ao botão fechar usando DOMContentLoaded
+	document.addEventListener('DOMContentLoaded', () => {
+		const closeButton = document.querySelector('.close-banner');
+		if (closeButton) {
+			closeButton.addEventListener('click', closeBanner);
+		}
+	});
+		  
+
 	// Browser fixes.
 
 		// IE: Flexbox min-height bug.
@@ -337,5 +354,6 @@
 							}, 275);
 
 						});
+
 
 })(jQuery);

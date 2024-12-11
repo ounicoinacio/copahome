@@ -10,6 +10,7 @@
 	<title>Copa home: Seu lar em Copacabana</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests;">
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="canonical" href="https://www.copahome.rio.br/">
 	<noscript>
@@ -119,7 +120,11 @@
 </head>
 
 <body class="is-preload">
-
+	<div class="flash-sale-banner" id="flash-sale">
+		<p><b class="flash-sale-text">🎉 OFERTA ESPECIAL DE ANO NOVO 🎉 </b>
+		<a href="https://www.airbnb.com.br/contact_host/1294300259388327273/send_message"  target="_blank" class="flash-sale-link"> Envie "ANO NOVO" como mensagem ao anfitrião e receba uma oferta exclusiva!</a></p>
+		<button class="close-banner" onclick="closeBanner()"> X </button>
+	  </div>
 	<!-- Wrapper -->
 	<div id="wrapper" class="divided">
 
