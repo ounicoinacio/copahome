@@ -8614,5 +8614,58 @@ input, select, textarea {
 				width: 100%; /* Responsivo */
 				margin: 0 auto; /* Centralizar horizontalmente */
 			  }
+			  
+
+			  #flash-sale {
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 100%;
+				background-color: #0fa040; /* Cor de destaque para o banner */
+				color: #000;
+				text-align: center;
+				padding: 10px;
+				font-size: 16px;
+				z-index: 9999;
+				box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+			}
+
+			.flash-sale-text {
+				color: #f9f7f7; /* Cor do texto */
+			  }
+			.flash-sale-link {
+				color: #f9f7f7; /* Cor do link */
+			  }
+			  
+			  .flash-sale-link:hover {
+				color: #000000; /* Azul ao passar o mouse */
+			  }
+			
+			#flash-sale p {
+				margin: 0;
+				padding: 5px 30px 5px 30px;
+				line-height: 1.5;
+			}
+			
+			#flash-sale .close-banner {
+				position: absolute;
+				top: 15px;
+				right: 5px;
+				background: none; /* Remove a cor de fundo */
+				border: none; /* Remove a borda */
+				font-size: 7px; /* Tamanho */
+				font-weight: bold;
+				color: #000; /* Cor do X */
+				cursor: pointer; /* Mostra o cursor de clique */
+				transition: color 0.3s ease;
+				z-index: 10000;
+			}
+			
+			#flash-sale .close-banner:hover {
+				color: #e63946; /* Cor de destaque ao passar o mouse */
+			}
+			
+
+			  
 					  
 		  
